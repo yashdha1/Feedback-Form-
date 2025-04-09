@@ -19,7 +19,7 @@ export const createSubs = async (req, res) => {
 export const getSubs = async (req, res) => {
     try { 
         const forms = await Form.find({}); // find all the form submissions : 
-         
+        console.log("Forms : " + forms);
         return res.status(200).json({ forms }) ;
     } catch (error) {
         console.log("ERROR IN THE FORM SUBMMISON GETTING : " + error); 
