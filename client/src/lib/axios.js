@@ -8,7 +8,7 @@ const axiosInstance = axios.create({
 });
 
 
-console.log("mode", import.meta.mode); 
-console.log("baseURL", axiosInstance.defaults.baseURL); 
+console.log("mode", import.meta.mode) ;
+console.log("baseURL", axiosInstance.defaults.baseURL) ; 
 
 export default axiosInstance ;
