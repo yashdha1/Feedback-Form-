@@ -3,7 +3,7 @@ import axios from "axios";
 
 const axiosInstance = axios.create({
     // deployment will be diffrent : 
-    baseURL: import.meta.mode === "development" ? "http://localhost:5000/api/v1" : "https://feedback-form-1-ritt.onrender.com/api/v1", // Replace with your backend base URL
+    baseURL: import.meta.mode === "development" ? "http://localhost:5000/api/v1" : "https://feedback-form-35cf.onrender.com/api/v1", // Replace with your backend base URL
     withCredentials : true, // cookies will be send for everything 
 });
 
